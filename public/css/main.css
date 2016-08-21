@@ -1,7 +1,29 @@
+a  {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+}
+
+ul li {
+    display: inline; /* Отображать как строчный элемент */
+    list-style-type: none; /* Убираем маркеры */
+    margin: 0; /* Отступ слева в браузере IE и Opera */
+    padding: 5px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
 table {
     color:#000000;
     border-color: #000000;
     background-color:lightsteelblue;
     width: 80%;
 
+}
+
+ul {
+    font-family: Tahoma;
+}
+.nav_header {
+    color: black;
+}
+
+.nav_footer {
+    color: white;
 }
