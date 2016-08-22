@@ -27,3 +27,48 @@ ul {
 .nav_footer {
     color: white;
 }
+
+input[type="text"]:valid,
+input[type="email"]:valid,
+textarea:valid {
+    background: greenyellow;
+}
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+textarea:invalid {
+    background: orangered;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+    background: deepskyblue;
+    }
+
+input[type="text"]:focus::-webkit-input-placeholder,
+input[type="text"]:focus::-moz-placeholder,
+input[type="email"]:focus::-webkit-input-placeholder,
+input[type="email"]:focus::-moz-placeholder,
+textarea:focus::-webkit-input-placeholder,
+textarea:focus::-moz-placeholder
+{
+    color: transparent;
+}
+
+
+.a_text{
+    color: #008000;
+    text-decoration: none;
+    font-family: Tahoma;
+}
+.a_text:hover {
+    color: #800000; /
+    text-decoration: none;
+    font-family: Tahoma;
+}
+
+p::-moz-selection {
+    background: #6666cc;
+}
+p::selection {
+    background: #6666cc;
+}
